@@ -1,6 +1,5 @@
-// You can add custom scripts here if needed
-// For now, let's keep it simple
+var app = angular.module('portfolioApp', []);
 
-document.addEventListener("DOMContentLoaded", function () {
-    // Your initialization code here, if any
+app.controller('MainController', function ($scope) {
+    // Se precisar de lógica adicional do Angular, você pode adicionar aqui
 });

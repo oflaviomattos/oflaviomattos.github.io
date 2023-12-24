@@ -1,63 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="portfolioApp">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Flavio Mattos - Portfólio</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <header>
-        <h1>Flavio Mattos</h1>
-        <p>Bem-vindo ao meu portfólio!</p>
+<body ng-controller="MainController">
+
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-3">Flavio Mattos</h1>
+            <p class="lead">Desenvolvedor Full Stack</p>
+        </div>
     </header>
 
-    <section id="about">
-        <h2>Sobre</h2>
-        <p>Meu nome é Flavio Mattos, e sou um Desenvolvedor Full Stack apaixonado por tecnologia, inovação, etc. Este site foi criado para apresentar um pouco sobre quem eu sou, meu background e projetos que tenho trabalhado.</p>
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="display-4 mb-4">Sobre</h2>
+                <p class="lead">Meu nome é Flavio Mattos, e sou um apaixonado por tecnologia, inovação, etc. Este site foi criado para apresentar um pouco sobre quem eu sou, meu background e projetos que tenho trabalhado.</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="display-4 mb-4">Projetos</h2>
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Teste de Software em C#</h5>
+                            <p class="card-text">Testes Unitários.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">snmpwalk via Linux</h5>
+                            <p class="card-text">Capturar Contadores Físicos em IP Printers através do SNMPWALK.</p>
+                        </div>
+                    </div>
+                    <!-- Adicione mais cards conforme necessário -->
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="display-4 mb-4">Habilidades</h2>
+                <ul class="list-inline lead">
+                    <li class="list-inline-item mr-3">PHP</li>
+                    <li class="list-inline-item mr-3">C#</li>
+                    <li class="list-inline-item mr-3">Java</li>
+                    <li class="list-inline-item mr-3">JS</li>
+                </ul>
+                <ul class="list-inline lead">
+                    <li class="list-inline-item mr-3">Bootstrap</li>
+                    <li class="list-inline-item mr-3">Angular</li>
+                    <li class="list-inline-item mr-3">Laravel</li>
+                </ul>
+                <ul class="list-inline lead">
+                    <li class="list-inline-item mr-3">Machine Learning</li>
+                    <!-- Adicione mais habilidades conforme necessário -->
+                </ul>
+            </div>
+        </div>
+
     </section>
 
-    <section id="projects">
-        <h2>Projetos</h2>
-        <p>Aqui estão alguns dos meus projetos notáveis:</p>
-        <ul>
-            <li>Teste de Software em C# em xUNIT: Testes Unitarios.</li>
-            <li>snmpwalk via Linux: Capturar Contadores Físicos em IP Printers através do SNMPWALK.</li>
-            <!-- Adicione mais projetos conforme necessário -->
-        </ul>
-        <p>Para ver mais projetos, visite a seção Projetos.</p>
-    </section>
-
-    <section id="skills">
-        <h2>Habilidades</h2>
-        <p>Linguagens de Programação: PHP, C#, Java, JS</p>
-        <p>Frameworks e Bibliotecas: BOOTSTRAP, ANGULAR, LÁRAVEL</p>
-        <p>Outras Habilidades: MACHINELEARNING</p>
-        <p>Para uma lista completa de habilidades, confira a seção Habilidades.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contato</h2>
-        <p>Sinta-se à vontade para entrar em contato comigo através das seguintes plataformas:</p>
-        <ul>
-            <li>E-mail: <a href="mailto:contact@flaviomattos.com">contact@flaviomattos.com</a></li>
-            <li>Website/Portfólio: <a href="https://www.flaviomattos.com/">https://www.flaviomattos.com/</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/oflaviomattos/">https://www.linkedin.com/in/oflaviomattos/</a></li>
-            <li>Kaggle: <a href="https://www.kaggle.com/flaviomattos">https://www.kaggle.com/flaviomattos</a></li>
-        </ul>
-    </section>
-
-    <section id="contribute">
-        <h2>Como Contribuir</h2>
-        <p>Se você encontrar algum problema, bug ou tiver sugestões para melhorar meu site ou portfólio, sinta-se à vontade para abrir uma issue ou enviar um pull request!</p>
-    </section>
-
-    <footer>
-        <p>Obrigado por visitar meu repositório! 😊</p>
+    <footer class="text-center py-3 bg-dark text-white">
+        <p class="lead">
+            <a href="mailto:contact@flaviomattos.com" class="text-white">E-mail</a> |
+            <a href="https://www.flaviomattos.com/" class="text-white">Website/Portfólio</a> |
+            <a href="https://www.linkedin.com/in/oflaviomattos/" class="text-white">LinkedIn</a> |
+            <a href="https://www.kaggle.com/flaviomattos" class="text-white">Kaggle</a>
+        </p>
     </footer>
 
+    <script src="https://code.angularjs.org/1.8.2/angular.min.js"></script>
     <script src="main.js"></script>
 </body>
 
