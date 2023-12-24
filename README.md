@@ -36,8 +36,9 @@ Para uma lista completa de habilidades, confira a seção [Habilidades](./habili
 Sinta-se à vontade para entrar em contato comigo através das seguintes plataformas:
 
 - **E-mail:** [contact@flaviomattos.com]
-- **LinkedIn:** [https://www.linkedin.com/in/oflaviomattos/]
 - **Website/Portfólio:** [https://www.flaviomattos.com/]
+- **LinkedIn:** [https://www.linkedin.com/in/oflaviomattos/]
+- **Kaggle:** [https://www.kaggle.com/flaviomattos]
 
 ## Como Contribuir
 
