@@ -31,13 +31,13 @@
             <div class="col-lg-8 mx-auto text-center">
                 <h2 class="display-4 mb-4">Projetos</h2>
                 <div class="card-deck">
-                    <div class="card">
+                    <div class="card shadow">
                         <div class="card-body">
                             <h5 class="card-title">Teste de Software em C#</h5>
                             <p class="card-text">Testes Unitários.</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card shadow">
                         <div class="card-body">
                             <h5 class="card-title">snmpwalk via Linux</h5>
                             <p class="card-text">Capturar Contadores Físicos em IP Printers através do SNMPWALK.</p>
@@ -68,9 +68,8 @@
                 </ul>
             </div>
         </div>
-
     </section>
-
+    
     <footer class="text-center py-3 bg-dark text-white">
         <p class="lead">
             <a href="mailto:contact@flaviomattos.com" class="text-white">E-mail</a> |
@@ -79,9 +78,39 @@
             <a href="https://www.kaggle.com/flaviomattos" class="text-white">Kaggle</a>
         </p>
     </footer>
-
+    
     <script src="https://code.angularjs.org/1.8.2/angular.min.js"></script>
     <script src="main.js"></script>
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            if (body.classList.contains("theme-dark")) {
+                body.classList.remove("theme-dark");
+                body.classList.add("theme-light");
+                document.querySelector("#theme-img").src = "./pic_bulbon.gif";
+                localStorage.setItem("theme", "light");
+            } else {
+                body.classList.remove("theme-light");
+                body.classList.add("theme-dark");
+                document.querySelector("#theme-img").src = "./pic_bulboff.gif";
+                localStorage.setItem("theme", "dark");
+            }
+        }
+
+        window.onload = () => {
+            let theme = localStorage.getItem("theme");
+            let hour = new Date().getHours();
+            const body = document.body;
+
+            if (theme === "dark" || (theme === null && (hour >= 18 || hour <= 5))) {
+                body.classList.add("theme-dark");
+                document.querySelector("#theme-img").src = "./pic_bulboff.gif";
+            } else {
+                body.classList.add("theme-light");
+                document.querySelector("#theme-img").src = "./pic_bulbon.gif";
+            }
+        };
+    </script>
 </body>
 
 </html>
