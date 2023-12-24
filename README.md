@@ -11,23 +11,23 @@ Bem-vindo ao meu repositório do GitHub que hospeda meu site e portfólio! Este 
 
 ## Sobre
 
-Meu nome é [Seu Nome], e sou um [Desenvolvedor Full Stack] apaixonado por [tecnologia, inovação, etc.]. Este site foi criado para apresentar um pouco sobre quem eu sou, meu background e projetos que tenho trabalhado.
+Meu nome é Flavio Mattos, e sou um [Desenvolvedor Full Stack] apaixonado por [tecnologia, inovação, etc.]. Este site foi criado para apresentar um pouco sobre quem eu sou, meu background e projetos que tenho trabalhado.
 
 ## Projetos
 
 Aqui estão alguns dos meus projetos notáveis:
 
-- **Projeto 1:** Descrição do projeto 1.
-- **Projeto 2:** Descrição do projeto 2.
+- **Teste de Software em C# em xUNIT:** Testes Unitarios.
+- **snmpwalk via Linux:** Capturar Contadores Físicos em IP Printers através do SNMPWALK.
 - ...
 
 Para ver mais projetos, visite a seção [Projetos](./projetos).
 
 ## Habilidades
 
-- **Linguagens de Programação:** [Liste as linguagens que você domina]
-- **Frameworks e Bibliotecas:** [Liste as tecnologias que você utiliza]
-- **Outras Habilidades:** [Liste outras habilidades relevantes]
+- **Linguagens de Programação:** [PHP, C#, Java, JS]
+- **Frameworks e Bibliotecas:** [BOOTSTRAP, ANGULAR, LÁRAVEL]
+- **Outras Habilidades:** [MACHINELEARNING]
 
 Para uma lista completa de habilidades, confira a seção [Habilidades](./habilidades).
 
@@ -35,9 +35,9 @@ Para uma lista completa de habilidades, confira a seção [Habilidades](./habili
 
 Sinta-se à vontade para entrar em contato comigo através das seguintes plataformas:
 
-- **E-mail:** [seu.email@example.com]
-- **LinkedIn:** [Seu Perfil LinkedIn]
-- **Website/Portfólio:** [Seu Website/Portfólio]
+- **E-mail:** [contact@flaviomattos.com]
+- **LinkedIn:** [https://www.linkedin.com/in/oflaviomattos/]
+- **Website/Portfólio:** [https://www.flaviomattos.com/]
 
 ## Como Contribuir
 
